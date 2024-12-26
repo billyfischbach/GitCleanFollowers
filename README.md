@@ -1,6 +1,6 @@
-# Clean GitHub Followers Script 🚀
+# GitCleanFollowers 🚀
 
-This Python script helps you manage your GitHub followers by automatically unfollowing users who do not follow you back. It uses the GitHub API to fetch your list of followers and the users you are following, and then unfollows those who are not following you back.
+GitCleanFollowers is a Python script that helps you manage your GitHub followers by automatically unfollowing users who do not follow you back. It leverages the GitHub API to fetch your list of followers and the users you are following, and then unfollows those who are not following you back.
 
 ## Features ✨
 
@@ -15,6 +15,7 @@ This Python script helps you manage your GitHub followers by automatically unfol
 
 You can install the `requests` library using pip:
 
+bash
 pip install requests
 
 ## Setup 🔧
@@ -28,8 +29,8 @@ pip install requests
 
 Run the script using Python:
 
+bash
 python clean_followers.py
-
 
 The script will automatically unfollow users who do not follow you back.
 
